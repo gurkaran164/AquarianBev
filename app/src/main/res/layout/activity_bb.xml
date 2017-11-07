@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aquarianbev.aquarianbev.BB">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/bbb"
+        android:src="@drawable/logo"/>
+    <ImageView
+        android:src="@drawable/aquarianbev"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/bbbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bbb"
+        android:textSize="15sp"
+        android:layout_marginLeft="4dp"
+        android:text="Beach Beauty is committed to craft beers of expression that give you taste and make your life much cooler.
+"
+        android:textColor="#E34234"/>
+    <TextView
+        android:id="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="1/31,DS Block B,Jangpura Extenstion,New Delhi,India 110014"
+        android:layout_below="@+id/bbbb"
+        android:textColor="#2A52BE"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aa"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:autoLink="phone"
+        android:text="+91 9876822292"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gurkaran ©"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:textColor="#CE1620"/>
+   </RelativeLayout>
+</ScrollView>
